@@ -1,0 +1,46 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/react",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react-hooks",
+    "@typescript-eslint",
+    "testing-library",
+    "jest-dom"
+  ],
+  "rules": {
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "react/require-default-props": "warn",
+    "no-undef": "warn",
+    "react/no-unused-prop-types": "warn",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "variables": false }
+    ],
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-unused-vars": "error",
+    "jsx-quotes": [2, "prefer-single"],
+    "quotes": [2, "single"],
+    "import/prefer-default-export": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.ts", "**/*.test.tsx"]
+    }
+  ],
+"parser": "@typescript-eslint/parser",
+}
