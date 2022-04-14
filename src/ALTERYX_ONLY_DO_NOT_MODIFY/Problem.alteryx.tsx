@@ -25,23 +25,24 @@ function Problem() {
           requirements we’d expect any solution to have:
         </Typography>
 
-				<RequirementsList
-					items={[
-						'A user can pick a start date to buy all of their stocks and the amount of each stock to buy. For example on Jan 3 2017 I could buy 100 shares of GOOG and 200 shares of APPL. Same for selling their stocks.',
-						'A user can see holdings in their portfolio.',
-						'A user can see how a holding in their portfolio performed in 2017. This can be accomplished with an interactive chart.',
-						'A user can add as many shares of as many stocks as they would like, so long as they stay under the starting budget',
-						'The user should be able to update any of the above inputs and recalculate the results. These inputs should be persisted should the user return to the page at a later time.'
-					]}
-				/>
-			</Grid>
+        <RequirementsList
+          items={[
+            'A user can pick a start date to buy all of their stocks and the amount of each stock to buy. For example on Jan 3 2017 I could buy 100 shares of GOOG and 200 shares of APPL. Same for selling their stocks.',
+            'A user can see holdings in their portfolio.',
+            'A user can add as many shares of as many stocks as they would like, so long as they stay under the starting budget',
+            'The user should be able to update any of the above inputs and recalculate the results.'
+          ]}
+        />
+      </Grid>
 
       <Grid item>
         <Typography variant='h6'>Out of Scope</Typography>
-        <Typography variant='body2'>
-          Authentication, assume the user that “loads” the app is logged in. We
-          don't need to see you reinvent OAuth2.
-        </Typography>
+        <RequirementsList
+          items={[
+            'Authentication',
+            'Input Validation'
+          ]}
+        />
       </Grid>
     </Grid>
   );

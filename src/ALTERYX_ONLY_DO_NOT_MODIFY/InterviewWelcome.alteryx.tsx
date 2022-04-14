@@ -3,7 +3,6 @@ import { Divider, Grid, makeStyles, Typography } from '@material-ui/core';
 import { Alert } from '@material-ui/lab';
 
 import alteryxLogo from './assets/alteryx-blue-bg.jpeg';
-import Bonus from './Bonus.alteryx';
 import Procedure from './Procedure.alteryx';
 import Problem from './Problem.alteryx';
 import ServerInfo from './ServerInfo.alteryx';
@@ -74,13 +73,11 @@ function InterviewWelcome() {
 
       <Problem />
 
-			<Bonus />
+      <Divider style={{ margin: 16 }} />
 
-			<Divider style={{ margin: 16 }}/>
-
-			<ServerInfo />
-		</>
-	)
+      <ServerInfo />
+    </>
+  )
 };
 
 export default InterviewWelcome;
