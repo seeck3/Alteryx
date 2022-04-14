@@ -14,8 +14,7 @@ function Problem() {
         <Typography variant='body1'>
           We want you to build a web application to maintain and visualize an
           artificial portfolio containing a subset of 100 possible stocks (From
-          S&P 500) for the user to buy and sell from the year 2017 given a
-          starting budget of $100,000. To make this easier the user can pick a
+          S&P 500) for the user to buy and sell from the year 2017. To make this easier the user can pick a
           single day to buy all of their stocks and a single day to sell all of
           their stocks given their budget.
         </Typography>
@@ -29,7 +28,8 @@ function Problem() {
           items={[
             'A user can pick a start date to buy all of their stocks and the amount of each stock to buy. For example on Jan 3 2017 I could buy 100 shares of GOOG and 200 shares of APPL. Same for selling their stocks.',
             'A user can see holdings in their portfolio.',
-            'A user can add as many shares of as many stocks as they would like, so long as they stay under the starting budget',
+            'A user can see how a holding in their portfolio performed in 2017. This can be accomplished with an interactive chart.',
+            'A user can add as many shares of as many stocks as they would like.',
             'The user should be able to update any of the above inputs and recalculate the results.'
           ]}
         />
