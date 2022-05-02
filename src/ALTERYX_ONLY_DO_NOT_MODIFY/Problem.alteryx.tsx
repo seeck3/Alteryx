@@ -15,8 +15,7 @@ function Problem() {
           We want you to build a web application to maintain and visualize an
           artificial portfolio containing a subset of 100 possible stocks (From
           S&P 500) for the user to buy and sell from the year 2017. To make this easier the user can pick a
-          single day to buy all of their stocks and a single day to sell all of
-          their stocks given their budget.
+          single day to buy all of their stocks and a single day to sell all of their stocks.
         </Typography>
 
         <Typography variant='body1' style={{ marginTop: 32 }}>
