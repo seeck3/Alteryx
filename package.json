@@ -4,12 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
-    "@material-ui/lab": "^4.0.0-alpha.60",
-    "json-server": "^0.16.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "@material-ui/lab": "^4.0.0-alpha.60"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,8 +40,6 @@
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.2",
     "@types/react": "^17.0.19",
-    "@types/react-dom": "^17.0.9",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "typescript": "^4.3.5"
+    "@types/react-dom": "^17.0.9"
   }
 }
